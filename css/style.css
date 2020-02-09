@@ -84,7 +84,7 @@ input[type="submit"],input[type="reset"],a{
 }
 /*-- banner --*/
 .banner{
-	background:url(../images/b.jpg) no-repeat center;
+	background:url(../images/b.jpg) no-repeat fixed center;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -451,7 +451,8 @@ nav.navbar.navbar-default {
 	position:relative;
 }
 .w3_agileits-about-bottom{
-	background:url(../images/2.jpg) no-repeat center;
+	background:url(../images/logo.png) no-repeat  center;
+	background-size: contain;
 	min-height:300px;
 }
 .w3ls-about h2.agileits-title{
@@ -460,8 +461,8 @@ nav.navbar.navbar-default {
     color: #ffb600;	
 }
 .agile-about-left {
-    width: 25%;
-    margin: 0 0 2% 75%;
+    width: 100%;
+    margin: 0 0 2% 0%;
 }
 .agile-about-left h2.agileits-title {
     font-size: 2em;
@@ -555,7 +556,7 @@ span.w3ls-type {
     margin: 4em 0 0;
 }
 div#services {
-    background: url(../images/7.jpg) no-repeat center;
+    background: url(../images/7.jpg) no-repeat fixed center;
     background-size: cover;
 }
 .w3_agileits-service-grid{
@@ -884,6 +885,7 @@ section.social ul li {
 .wthreelocationsaits .grid figure img {
 	display: block;
 	width: 100%;
+	height: 309px;
 }
 
 .wthreelocationsaits .content, .loading {
@@ -1146,7 +1148,7 @@ section.social ul li {
 
 /*-- blog --*/
 div#blog {
-    background: url(../images/7.jpg) no-repeat center;
+    background: url(../images/7.jpg) no-repeat fixed center;
     background-size: cover;
 }
 .blog span.wthree-line {
@@ -2436,15 +2438,15 @@ h4.modal-title {
 		margin: 0.8em 0 0 0;
 	}
 	.agile-about-left {
-		width: 59%;
-		margin: 0 0 2% 39%;
+		width: 100%;
+		margin: 0 0 2% 0%;
 	}
 	.w3_agileits-about-left {
 		width: 100%;
 		float: none;
 	}
 	.agile-about-left {
-		text-align: right;
+		text-align: left;
 	}
 	.agileits-about span.wthree-line {
 		top: 7.5%;
