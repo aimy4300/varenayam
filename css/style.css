@@ -1152,11 +1152,11 @@ div#blog {
     background-size: cover;
 }
 .blog span.wthree-line {
-    top: 15%;
+    top: 23%;
 }
 .blog i.fa.fa-ellipsis-h {
     left: 49.4%;
-    top: 13.3%;
+    top: 20.3%;
 }
 li{
 	list-style-type:none;
@@ -2877,13 +2877,13 @@ h4.modal-title {
 		width: 59px;
 	}
 	.blog span.wthree-line {
-		top: 4.5%;
+		top: 7.5%;
 	}
 	.w3-agile-post-info h5, .w3-agile-post-info h4 {
 		font-size: 1.2em;
 	}
 	.blog i.fa.fa-ellipsis-h {
-		top: 3.9%;
+		top: 6.9%;
 	}
 	.blog span.wthree-left {
 		left: 36%;
